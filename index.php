@@ -18,6 +18,7 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
     <tr>
         <th>Name</th> <th>Mobile</th> <th>Email</th><th>Address</th> <th>Update</th>
     </tr>
+	<tr>Row Added </tr>
     <?php  
     while($user_data = mysqli_fetch_array($result)) {         
         echo "<tr>";

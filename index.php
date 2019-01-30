@@ -29,7 +29,9 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC");
          echo "<td>".$user_data['address']."</td>"; 
 
           echo "<td>".$user_data['gender']."</td>";
-             echo "<td>".$user_data['Surname']."</td>"; 
+             echo "<td>".$user_data['Surname']."</td>";
+             echo "<td>".$user_data['Passang']."</td>";
+ 
             
 
 
